@@ -1,0 +1,103 @@
+html {
+    color: rgb(255, 246, 248);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #fff067, #ff6e6e);
+    background-attachment: fixed;
+    scrollbar-color: #fff8df rgb(37, 0, 37);
+}
+
+body{
+    padding:15px;
+}
+
+@font-face {
+    font-family: 'sigmar';
+    src: url("sigmarone.ttf");
+}
+
+@font-face {
+    font-family: 'slackey';
+    src: url("slackey.ttf");
+}
+
+h1 {
+    font-family: sigmar;
+    font-size: 45px;
+    margin:0;
+    color:#fff8df;
+    text-shadow:-3px -3px #ff7728,0 -3px #ff7728,3px -3px #ff7728,3px 0 #ff7728,3px 3px #ff7728,0 3px #ff7728,-3px 3px #ff7728,-3px 0 #ff7728;
+}
+
+h2 {
+    margin:0;
+    font-family: sigmar;
+    font-size: 35px;
+    color:#fff8df;
+    text-shadow:-3px -3px #ff7728,0 -3px #ff7728,3px -3px #ff7728,3px 0 #ff7728,3px 3px #ff7728,0 3px #ff7728,-3px 3px #ff7728,-3px 0 #ff7728;
+}
+
+h3 {
+    margin:0;
+    font-family: sigmar;
+    font-size: 28px;
+    color:#fff8df
+}
+
+p,ul,li{
+    list-style-position: inside;
+    font-family:slackey;
+}
+
+a:link,
+a:visited {
+  color: #fff067;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 187, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.constraint {
+    text-align: center;
+    position: relative;
+    max-width: 1000px;
+    width: auto;
+    margin: auto;
+    padding: 30px;
+    padding-top:5px;
+    background-color: rgba(37, 0, 37, 0.80);
+    border-radius: 25px;
+}
+img{
+    max-height:350px;
+    width:auto;
+    margin:2px;
+    border: 2px solid white;
+}
+
+.transparent{
+    border:none
+}
+
+.emoji{
+    border:none;
+    max-height:200px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid #ffe58e;
+    font-family:slackey;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
