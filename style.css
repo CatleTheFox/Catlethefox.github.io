@@ -14,13 +14,19 @@ body{
 }
 
 @font-face {
-    font-family: 'sigmar';
-    src: url("sigmarone.ttf");
+    font-family: 'Slackey';
+    src: url('Slackey-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'slackey';
-    src: url("slackey.ttf");
+    font-family: 'Sigmar One';
+    src: url('SigmarOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 h1 {
