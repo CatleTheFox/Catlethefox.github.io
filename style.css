@@ -83,6 +83,7 @@ a:hover {
 }
 img{
     max-height:350px;
+    max-width:100%;
     width:auto;
     margin:2px;
     border: 2px solid white;
